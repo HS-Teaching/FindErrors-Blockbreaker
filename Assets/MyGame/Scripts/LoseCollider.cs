@@ -8,9 +8,7 @@ public class LoseCollider : MonoBehaviour {
 
     void Start ()
     {
-        //Debug.Log(loader.GetComponents<SceneLoader>());
         sceneLoader = loader.GetComponent<SceneLoader>();
-        
     }
 
     private void OnTriggerEnter2D (Collider2D collision)
