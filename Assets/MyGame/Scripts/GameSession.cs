@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class GameSession{
 
@@ -33,9 +32,8 @@ public class GameSession{
         scoreText.text = currentScore.ToString();
     }
 
-
-    // Update is called once per frame
-    void Update () {
+    void Update () 
+    {
         Time.timeScale = gameSpeed;
 	}
 
@@ -54,5 +52,4 @@ public class GameSession{
     {
         return isAutoPlayEnabled;
     }
-
 }
